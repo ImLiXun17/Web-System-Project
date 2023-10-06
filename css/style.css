@@ -1,0 +1,142 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url(../image/buil10.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.container .content{
+    text-align: center;
+}
+.container .content h3{
+font-size: 30px;
+color: rgb(1, 255, 149);
+}
+.container .content h3 span{
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container .content h3{
+    font-size: 50px;
+    color: rgb(253, 251, 251);
+
+}
+.container .content h1 span{
+    color: rgb(1, 255, 149);
+}
+    .container .content h1{
+    color: rgb(1, 255, 149);
+
+}
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:rgb(250, 184, 61);
+}
+.container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(12, 0, 0);
+    margin: 0 5px;
+}
+.container .content .btn:hover{
+    background: crimson;
+}
+.form-con{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)), url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-con form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 198, 65, 0.767);
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+
+}
+
+.form-con form img{
+    padding: 0;
+    margin-top:-50px;
+    margin-right: 50px;
+    float: right;
+    display: block;
+
+    }
+.form-con form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom:5px;
+    color:#333;
+}
+.form-con form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+
+}
+.form-con form .form-btn{
+    background-color: rgb(19, 2, 250);
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.form-con form .form-btn:hover{
+    background: #2e71e6e5;
+    color: white;
+}
+.form-con form p{
+    font-size: 15px;
+}
+.form-con form p a{
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 4px;
+    border: 2px;
+    background-color: red;
+    color: rgb(248, 248, 248);
+}
+.form-con form p a:hover{
+    color: rgb(6, 201, 255);
+}
+.form-con form .error-mess{
+    margin: 5px;
+    display: block;
+    background: rgba(229, 14, 57, 0.744);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
